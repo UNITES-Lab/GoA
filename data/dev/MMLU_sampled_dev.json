@@ -1,0 +1,352 @@
+[
+  {
+    "question": "In 8085 name/names of the 16 bit registers is/are The options are: (A) stack pointer. (B) program counter. (C) both A and B. (D) none of these..",
+    "gold_answer": "C",
+    "subject": "electrical_engineering",
+    "subcategory": "engineering",
+    "category": "stem"
+  },
+  {
+    "question": "To make an international telephone call from within the US what are the first numbers you should dial? The options are: (A) 11 (B) 101 (C) 888 (D) 911.",
+    "gold_answer": "B",
+    "subject": "miscellaneous",
+    "subcategory": "other",
+    "category": "other"
+  },
+  {
+    "question": "For which of the following rings is it possible for the product of two nonzero elements to be zero? The options are: (A) The ring of complex numbers (B) The ring of integers modulo 11 (C) The ring of continuous real-valued functions on [0, 1] (D) The ring {a + b * sqrt(2) : a and b are rational numbers}.",
+    "gold_answer": "C",
+    "subject": "college_mathematics",
+    "subcategory": "math",
+    "category": "stem"
+  },
+  {
+    "question": "In recent years social media has had a major impact on the practice of public relations. In which of the following areas has the impact been greatest and experienced most immediately? The options are: (A) Politics (B) Retail business (C) Automotive sales (D) Nonprofits.",
+    "gold_answer": "A",
+    "subject": "public_relations",
+    "subcategory": "politics",
+    "category": "social_sciences"
+  },
+  {
+    "question": "Which choice produces a faster rate of economic growth for the United States? The options are: (A) Institution of higher tariffs on imported goods (B) More investment in capital infrastructure and less consumption of nondurable goods and services (C) Elimination of mandatory school attendance laws (D) Annual limits on the number of foreigners immigrating into the United States.",
+    "gold_answer": "B",
+    "subject": "high_school_macroeconomics",
+    "subcategory": "economics",
+    "category": "social_sciences"
+  },
+  {
+    "question": "Which of these statements is commonly regarded as a tangible benefit of the securitization process? The options are: (A) Securitizing injects urgency into an issue and leads to a sustained mobilization of political support and deployment of resources. (B) Securitization encourages more efficient handling of complex problems. (C) Securitization mobilizes popular support for policies in specific areas by calling them security relevant and encourages the allocation of more resources. (D) All of these options..",
+    "gold_answer": "D",
+    "subject": "security_studies",
+    "subcategory": "politics",
+    "category": "social_sciences"
+  },
+  {
+    "question": "A healthy 2-year-old girl is brought to the office for a routine well-child visit. The child was weaned at 6 months of age and began to walk at 10 months of age. On physical examination, she has mild bowlegs (10-degree genu varum). Which of the following is the most appropriate management to recommend at this time? The options are: (A) Increased intake of vitamin D (B) A special exercise program (C) Surgical correction (D) No treatment is needed at this time.",
+    "gold_answer": "D",
+    "subject": "professional_medicine",
+    "subcategory": "health",
+    "category": "other"
+  },
+  {
+    "question": " Which of the given formulas of PL is the best symbolization of the following sentence?\nIf either Harry enrolls or George does not enroll, then Jim enrolls. The options are: (A) H \u2228 (~G \u2283 J) (B) ~(H \u2228 G) \u2283 J (C) (H \u2228 ~G) \u2283 J (D) (H \u2283 ~G) \u2228 J.",
+    "gold_answer": "C",
+    "subject": "formal_logic",
+    "subcategory": "philosophy",
+    "category": "humanities"
+  },
+  {
+    "question": "A common nuclear fission reactor The options are: (A) heats water (B) generates electricity directly (C) gets energy from nothing (D) is a major polluter of the atmosphere.",
+    "gold_answer": "A",
+    "subject": "conceptual_physics",
+    "subcategory": "physics",
+    "category": "stem"
+  },
+  {
+    "question": "This question refers to the following information.\n\"The Opposition tells us that we ought not to govern a people without their consent. I answer, the rule of liberty that all just government derives its authority from the consent of the governed, applies only to those who are capable of self-government. We govern the Indians without their consent, we govern our territories without their consent, we govern our children without their consent. How do they know that our government would be without their consent? Would not the people of the Philippines prefer the just, human, civilizing government of this Republic to the savage, bloody rule of pillage and extortion from which we have rescued them? And, regardless of this formula of words made only for enlightened, self-governing people, do we owe no duty to the world? Shall we turn these peoples back to the reeking hands from which we have taken them? Shall we abandon them, with Germany, England, Japan, hungering for them? Shall we save them from those nations, to give them a self-rule of tragedy?\u2026Then, like men and not like children, let us on to our tasks, our mission, and our destiny.\"\nAlbert J. Beveridge, \"The March of the Flag,\" 1898\nWhich of the following rationales does Beveridge employ in his argument? The options are: (A) The closing of the western frontier impels the United States to expand its territory overseas. (B) Governing territories confers economic benefits to both European and nonwhite nations. (C) Powerful nations have a moral duty to govern less developed nations. (D) Racial superiority confers responsibility to the United States and Europe over the affairs of developing nations..",
+    "gold_answer": "C",
+    "subject": "high_school_us_history",
+    "subcategory": "history",
+    "category": "humanities"
+  },
+  {
+    "question": "Which of the following statements are true concerning the acf and pacf?\n\n(i) The acf and pacf are often hard to interpret in practice\n\n(ii) The acf and pacf can be difficult to calculate for some data sets\n\n(iii) Information criteria represent an alternative approach to model order determination\n\n(iv) If applied correctly, the acf and pacf will always deliver unique model selections The options are: (A) (ii) and (iv) only (B) (i) and (iii) only (C) (i), (ii), and (iii) only (D) (i), (ii), (iii), and (iv).",
+    "gold_answer": "C",
+    "subject": "econometrics",
+    "subcategory": "economics",
+    "category": "social_sciences"
+  },
+  {
+    "question": "Which membrane fatty acids are precursors for eicosanoids?\n The options are: (A) C20 and C22 saturated fatty acids (B) C18 and C22 polyunsaturated fatty acids (C) C20 and C22 monounsaturated fatty acids (D) C20 and C22 polyunsaturated fatty acids.",
+    "gold_answer": "D",
+    "subject": "nutrition",
+    "subcategory": "health",
+    "category": "other"
+  },
+  {
+    "question": "For which of these two scenarios does the main character (who uses I/me/my) do something clearly morally wrong, according to ordinary moral standards in the US as of 2020? Scenario 1 | As the baby laid asleep, I cooked them. Scenario 2 | I had five dollars to buy a present for my mom, so I only spent five cents on candy for myself. The options are: (A) Wrong, Wrong (B) Wrong, Not wrong (C) Not wrong, Wrong (D) Not wrong, Not wrong.",
+    "gold_answer": "B",
+    "subject": "moral_scenarios",
+    "subcategory": "philosophy",
+    "category": "humanities"
+  },
+  {
+    "question": "Statement 1 | If G, H and K are groups of order 4, at least two of them are isomorphic. Statement 2 | If Z_r + Z_s is isomorphic to a subgroup Z_m + Z_n, then r divides m and s divides n. The options are: (A) True, True (B) False, False (C) True, False (D) False, True.",
+    "gold_answer": "C",
+    "subject": "abstract_algebra",
+    "subcategory": "math",
+    "category": "stem"
+  },
+  {
+    "question": "A 72-year-old woman comes to the physician because of a 2-month history of painless swelling of both ankles. She also reports shortness of breath with exertion and when lying down. She has been awakened from sleep by shortness of breath. She has not had chest pain. Her pulse is 96/min and regular, respirations are 24/min, and blood pressure is 128/76 mm Hg. Jugular venous pressure is 15 cm H2O. Pulmonary examination shows crackles at both lung bases. Cardiac examination shows a regular rhythm and a soft S3. A grade 3/6 holosystolic murmur is heard best at the apex, radiating to the axilla. There is 2+ pitting edema of the lower legs and ankles. Which of the following is most likely to confirm the diagnosis? The options are: (A) Measurement of serum troponin I concentration (B) ECG (C) Exercise stress test (D) Echocardiography.",
+    "gold_answer": "D",
+    "subject": "professional_medicine",
+    "subcategory": "health",
+    "category": "other"
+  },
+  {
+    "question": "Which of the following is a characteristic of monopolistic competition? The options are: (A) Economically efficient in the long run. (B) Pricing at minimum ATC in long run. (C) Excess capacity. (D) Very few competitors..",
+    "gold_answer": "C",
+    "subject": "high_school_microeconomics",
+    "subcategory": "economics",
+    "category": "social_sciences"
+  },
+  {
+    "question": "Which of the following causes female pseudohermaphroditism? The options are: (A) Androgen insensitivity (B) Campomelic dysplasia (C) Congenital adrenal hyperplasia (D) Klinefelter syndrome.",
+    "gold_answer": "C",
+    "subject": "medical_genetics",
+    "subcategory": "health",
+    "category": "other"
+  },
+  {
+    "question": "The mucosa of the hard palate is The options are: (A) keratinised and has submucosa and minor salivary glands posterolaterally. (B) non-keratinised and has submucosa and minor salivary glands posteromedially. (C) keratinised and lacks submucosa and minor salivary glands. (D) non-keratinised and lacks submucosa and minor salivary glands..",
+    "gold_answer": "A",
+    "subject": "anatomy",
+    "subcategory": "health",
+    "category": "other"
+  },
+  {
+    "question": "Fire hoses always have a nozzle on the end of the hose, which in part works by decreasing the area of the water exiting the fire hydrant to create a more forceful stream. If the starting velocity of water from a fire hydrant is 2 m/s, pressure is kept constant, and the end of the nozzle is 1/3 the area of the start of the hose, what is the final velocity of water as it exits? The options are: (A) 2 m/s (B) 8 m/s (C) 5 m/s (D) 6 m/s.",
+    "gold_answer": "D",
+    "subject": "college_medicine",
+    "subcategory": "health",
+    "category": "other"
+  },
+  {
+    "question": "Two possible wordings for a questionnaire on a proposed school budget increase are as follows: The options are: (A) The first showed 58% and the second 13% because of the lack of randomization as evidenced by the wording of the questions. (B) The first showed 13% and the second 58% because of a placebo effect due to the wording of the questions. (C) The first showed 58% and the second 13% because of the lack of a control group. (D) The first showed 58% and the second 13% because of response bias due to the wording of the questions..",
+    "gold_answer": "D",
+    "subject": "high_school_statistics",
+    "subcategory": "math",
+    "category": "stem"
+  },
+  {
+    "question": "If $888x + 889y = 890$ and $891x + 892y = 893$, what is the value of $x - y$? The options are: (A) 1 (B) -3 (C) -1 (D) 3.",
+    "gold_answer": "B",
+    "subject": "high_school_mathematics",
+    "subcategory": "math",
+    "category": "stem"
+  },
+  {
+    "question": "Bromine has a normal boiling point of 59 \u00b0C, and iodine boils at 184 \u00b0C. The I2 molecule is much larger than Br2 (atomic radii are 114 and 133 pm, respectively). Which is the best reason for the large difference in boiling points? The options are: (A) Bromine is a liquid and boils; iodine is a solid and sublimes. (B) The intramolecular bonds in I2 are much weaker than those in Br2. (C) The I2 electron clouds are much more polarizable than the Br2 electron clouds, resulting in much stronger London forces. (D) The mass of iodine is much greater than the mass of bromine..",
+    "gold_answer": "C",
+    "subject": "high_school_chemistry",
+    "subcategory": "chemistry",
+    "category": "stem"
+  },
+  {
+    "question": "During CPR, chest compressions should be delivered at a rate of: The options are: (A) 80/minute. (B) as fast as possible. (C) 100/minute. (D) varies with each patient..",
+    "gold_answer": "C",
+    "subject": "clinical_knowledge",
+    "subcategory": "health",
+    "category": "other"
+  },
+  {
+    "question": "In determining the order for reactant A in a certain reaction, the concentrations of all other reactants are held constant while the concentration of A is tripled from one experiment to another. The reaction rate is found to triple. The appropriate exponent for A in the rate law is The options are: (A) 1 (B) 2 (C) 3 (D) 4.",
+    "gold_answer": "A",
+    "subject": "high_school_chemistry",
+    "subcategory": "chemistry",
+    "category": "stem"
+  },
+  {
+    "question": "The above hominid species discovered in Malapa Cave in South Africa has been classified as: The options are: (A) Homo habilis (B) Australopithecus sediba. (C) Homo sapiens. (D) Australopithecus robustus.",
+    "gold_answer": "B",
+    "subject": "prehistory",
+    "subcategory": "history",
+    "category": "humanities"
+  },
+  {
+    "question": "What is the orbital angular momentum quantum number, l, of the electron that is most easily removed when ground-state aluminum is ionized? The options are: (A) 3 (B) 2 (C) 1 (D) 0.",
+    "gold_answer": "C",
+    "subject": "college_chemistry",
+    "subcategory": "chemistry",
+    "category": "stem"
+  },
+  {
+    "question": "A starvation-free job-scheduling policy guarantees that no job waits indefinitely for service. Which of the following job-scheduling policies is starvation-free? The options are: (A) Round-robin (B) Priority queuing (C) Shortest job first (D) Youngest job first.",
+    "gold_answer": "A",
+    "subject": "college_computer_science",
+    "subcategory": "computer science",
+    "category": "stem"
+  },
+  {
+    "question": "Salespeople who view a situation as a customer sees it are exhibiting The options are: (A) cooperation (B) empathy (C) responsibility (D) tolerance.",
+    "gold_answer": "B",
+    "subject": "marketing",
+    "subcategory": "business",
+    "category": "other"
+  },
+  {
+    "question": "Which of the following statements about excretory organs is true? The options are: (A) The kidneys of saltwater fishes produce urine hyperosmotic to their tissues. (B) The kidneys of desert mammals produce urine that is hypoosmotic to the urine of freshwater fishes. (C) Malpighian tubules allow insects to excrete waste through the exoskeleton. (D) Juxtamedullary nephrons in the mammalian kidney allow the organism to produce hyperosmotic urine..",
+    "gold_answer": "D",
+    "subject": "college_biology",
+    "subcategory": "biology",
+    "category": "stem"
+  },
+  {
+    "question": "For which of these two scenarios does the main character (who uses I/me/my) do something clearly morally wrong, according to ordinary moral standards in the US as of 2020? Scenario 1 | My baby sister wanted some of the ice cream I was having, so I told her to go away. Scenario 2 | As a landlord, I have a couple of elderly tenants that need to be replaced for new tenants because they are feeble. The options are: (A) Wrong, Wrong (B) Wrong, Not wrong (C) Not wrong, Wrong (D) Not wrong, Not wrong.",
+    "gold_answer": "A",
+    "subject": "moral_scenarios",
+    "subcategory": "philosophy",
+    "category": "humanities"
+  },
+  {
+    "question": "A tube of water is traveling at 1/2 c relative to the lab frame when a beam of light traveling in the same direction as the tube enters it. What is the speed of light in the water relative to the lab frame? (The index of refraction of water is 4/3.) The options are: (A) 1/2 c (B) 2/3 c (C) 5/6 c (D) 10/11 c.",
+    "gold_answer": "D",
+    "subject": "college_physics",
+    "subcategory": "physics",
+    "category": "stem"
+  },
+  {
+    "question": "An astronomer observes a very small moon orbiting a planet and measures the moon\u2019s minimum and maximum distances from the planet\u2019s center and the moon\u2019s maximum orbital speed. Which of the following CANNOT be calculated from these measurements? The options are: (A) Mass of the moon (B) Mass of the planet (C) Minimum speed of the moon (D) Period of the orbit.",
+    "gold_answer": "A",
+    "subject": "college_physics",
+    "subcategory": "physics",
+    "category": "stem"
+  },
+  {
+    "question": "What was established at Bretton Woods in 1994 to stabilize the global economy? The options are: (A) The International Monetary Fund (IMF) (B) The US Dollar as the world's reserve currency (C) The General Agreement on Tariffs and Trade (GATT) (D) All of the above.",
+    "gold_answer": "D",
+    "subject": "us_foreign_policy",
+    "subcategory": "politics",
+    "category": "social_sciences"
+  },
+  {
+    "question": "As what are key factors that reflect the situation of an organisation referred to? The options are: (A) Administrations (B) Processes (C) Activities (D) Contingencies.",
+    "gold_answer": "D",
+    "subject": "management",
+    "subcategory": "business",
+    "category": "other"
+  },
+  {
+    "question": "Epictetus recommends that we act: The options are: (A) according to our passions. (B) so as to do whatever comes naturally, without much thought. (C) only after careful reflection on the consequences of our actions. (D) so as to benefit the greatest number..",
+    "gold_answer": "C",
+    "subject": "philosophy",
+    "subcategory": "philosophy",
+    "category": "humanities"
+  },
+  {
+    "question": "Which of the following statements will be true if the number of replications used in a Monte Carlo study is small?\n\ni) The statistic of interest may be estimated imprecisely\n\n\nii) The results may be affected by unrepresentative combinations of random draws\n\n\niii) The standard errors on the estimated quantities may be unacceptably large\n\n\niv) Variance reduction techniques can be used to reduce the standard errors The options are: (A) (ii) and (iv) only (B) (i) and (iii) only (C) (i), (ii), and (iv) only (D) (i), (ii), (iii), and (iv).",
+    "gold_answer": "D",
+    "subject": "econometrics",
+    "subcategory": "economics",
+    "category": "social_sciences"
+  },
+  {
+    "question": "This question refers to the following information.\nThe following account of the Paris Exposition of 1889.\n\"The opportunities to study the natural history of man in Paris during the Exposition, and especially in August, when the great Congresses and the French Association held their sessions, were unparalleled in the history of anthropology. At any time the French capital affords rare advantages to the anthropologist. The Mus\u00e9e and Laboratoire Broca, the anthropometric operations of Bertillon in the Palais de Justice, the courses of lectures in the \u00e9cole d'Anthropologie, the collections in the Jardin de Plantes, the facilities for original work in the \u00e9coles de Medicine, and the hospitals give to the comparative anatomist and biologist abundant employment.\"\nOtis T. Mason, American ethnologist and curator, 1889\nIt can be inferred from the text that at the time of the Paris Exposition, the scientific community was changing due to The options are: (A) the inclusion of women (B) an increase in funding from officials in the French capital (C) the development of universal public education in many European countries (D) the development of new, specialized fields.",
+    "gold_answer": "D",
+    "subject": "high_school_european_history",
+    "subcategory": "history",
+    "category": "humanities"
+  },
+  {
+    "question": "For which of these two scenarios does the main character (who uses I/me/my) do something clearly morally wrong, according to ordinary moral standards in the US as of 2020? Scenario 1 | I called into work because I didn't feel well. Scenario 2 | I'm young, so I went grocery shopping during senior hours. The options are: (A) Wrong, Wrong (B) Wrong, Not wrong (C) Not wrong, Wrong (D) Not wrong, Not wrong.",
+    "gold_answer": "C",
+    "subject": "moral_scenarios",
+    "subcategory": "philosophy",
+    "category": "humanities"
+  },
+  {
+    "question": "A 76-year-old man comes to the office because of early awakening at night. He has no difficulty falling asleep but routinely wakes up between 2:00 and 3:00 AM. The patient is a retired postal worker, and he has always been physically active. He has diabetes mellitus controlled by diet. The patient drinks one cup of coffee in the morning with breakfast and usually walks for exercise in the morning. Before retiring at night he has one alcoholic beverage. He has no history of depression, nightmares, or snoring and he takes no over-the-counter medications. His wife of 45 years is also in good health. Vital signs are temperature 37.1\u00b0C (98.8\u00b0F), pulse 96/min and regular, respirations 18/min, and blood pressure 135/90 mm Hg. Physical examination shows a well-nourished, well-developed man. He is not obese. Examination of the head and neck is normal; there are no bruits or jugular venous distention. Chest is clear, and heart is normal with S1 and S2. Abdomen is soft and nontender with active bowel sounds and no organomegaly. Rectal examination discloses no abnormalities. Which of the following is the most appropriate management of this patient's insomnia? The options are: (A) Advise the patient to discontinue his bedtime drink of alcohol (B) Advise the patient to read and snack in bed to relax (C) Prescribe a vigorous pre-bedtime exercise regimen (D) Prescribe sertraline.",
+    "gold_answer": "A",
+    "subject": "professional_medicine",
+    "subcategory": "health",
+    "category": "other"
+  },
+  {
+    "question": "What was the consequence from the absence of implementing legislation in the Tin Council case? The options are: (A) The International Tin Council was headquartered in London and hence the absence of implementing legislation was inconsequential (B) The constitutive treaties of international organisations are subject to the doctrine of incorporation (C) The absence of implementing legislation with respect to the Council's founding treaty meant that individuals did not derive rights and duties from it in the English legal system (D) The absence of implementing legislation in England in respect of an international organisation is inconsequential under international law.",
+    "gold_answer": "C",
+    "subject": "international_law",
+    "subcategory": "law",
+    "category": "humanities"
+  },
+  {
+    "question": "The global HIV/AIDS death rate is highest for which of these age groups? The options are: (A) Under 5 (B) 14-May (C) 15-49 (D) over 50.",
+    "gold_answer": "C",
+    "subject": "global_facts",
+    "subcategory": "other",
+    "category": "other"
+  },
+  {
+    "question": "What do flavonoids (polyphenols), including isoflavones (phytoestrogens), inositol phosphates (phytates), lignans (phytoestrogens), isothiocyanates, indoles, phenols and sulphides and thiols, have in common?\n The options are: (A) They are all sources of fibre (B) They are all derived from plant foods (C) They are all vitamins (D) They are all nutrients.",
+    "gold_answer": "B",
+    "subject": "nutrition",
+    "subcategory": "health",
+    "category": "other"
+  },
+  {
+    "question": " What interior discipline must be adopted to achieve spiritual liberation within Sikhism? The options are: (A) Remembering the Divine Name (B) Meditating on the sacred hymns (C) Remembering that death is inevitable (D) Meditating on the goodness of the created world.",
+    "gold_answer": "A",
+    "subject": "world_religions",
+    "subcategory": "philosophy",
+    "category": "humanities"
+  },
+  {
+    "question": " Select the best English interpretation of the given proposition, using the following translation key: Ax: x is an apartment Hx: x is a house Lx: x is large Bxy: x is bigger than y (\u2203x)[(Ax \u2022 Lx) \u2022 (\u2203y)(Hy \u2022 Bxy)] The options are: (A) Some large houses are bigger than some apartments. (B) Some houses are bigger than all large apartments. (C) Some large apartments are bigger than some houses. (D) Some houses are bigger thatn some large apartments..",
+    "gold_answer": "C",
+    "subject": "formal_logic",
+    "subcategory": "philosophy",
+    "category": "humanities"
+  },
+  {
+    "question": "What is the inverse of $f(x)=4-5x$? The options are: (A) \\frac{5}{x-4} (B) \\frac{x-4}{5} (C) \\frac{x+4}{5} (D) -\\frac{x-4}{5}.",
+    "gold_answer": "D",
+    "subject": "high_school_mathematics",
+    "subcategory": "math",
+    "category": "stem"
+  },
+  {
+    "question": "A burial site where the body is allowed to decompose naturally without a casket is called a _____ cemetery The options are: (A) Naturalistic (B) Green (C) Rapid decay (D) Sunshine.",
+    "gold_answer": "B",
+    "subject": "human_aging",
+    "subcategory": "health",
+    "category": "other"
+  },
+  {
+    "question": "The most widespread and important retrovirus is HIV-1; which of the following is true? The options are: (A) Infecting only gay people (B) Infecting only males (C) Infecting every country in the world (D) Infecting only females.",
+    "gold_answer": "A",
+    "subject": "virology",
+    "subcategory": "health",
+    "category": "other"
+  },
+  {
+    "question": "White-collar crime is low in visibility because: The options are: (A) it involves only small amounts of money (B) the proletariat can outsmart the bourgeoisie (C) the police turn a blind eye to corporate crime (D) it goes undetected in the context of everyday business transactions.",
+    "gold_answer": "D",
+    "subject": "sociology",
+    "subcategory": "culture",
+    "category": "social_sciences"
+  },
+  {
+    "question": "This question refers to the following information.\n\"On the 4th of March next this party [the Republican party] will take possession of the government. It has announced that the South shall be excluded from the common territory, that the judicial tribunal shall be made sectional, and that a war must be waged against slavery until it shall cease throughout the United States. The guarantees of the Constitution will then no longer exist; the equal rights of the states will be lost. The slaveholding states will no longer have the power of self-government or self-protection, and the federal government will have become their enemy.\n\"We, therefore, the people of South Carolina, by our delegates in convention assembled, have solemnly declared that the Union heretofore existing between this state and the other states of North America is dissolved; and that the state of South Carolina has resumed her position among the nations of the world, as [a] separate and independent state, with full power to levy war, conclude peace, contract alliances, establish commerce, and to do all other acts and things which independent states may of right do.\"\nSouth Carolina defines the causes of secession, 1860\nIn the excerpt above, the reference to \"the sanctions of a more erroneous religious belief\" most probably refers to The options are: (A) Southern Baptist justification of slavery on the grounds of white racial superiority (B) the Puritan abolition of slavery in New England states (C) Jewish acceptance of slavery in the Torah (D) Christian abolitionist rejection of slavery on moral grounds.",
+    "gold_answer": "D",
+    "subject": "high_school_us_history",
+    "subcategory": "history",
+    "category": "humanities"
+  },
+  {
+    "question": "On what grounds does John Finnis reject Hume's conception of practical reason? The options are: (A) That natural law corresponds to positive law. (B) That Hume is a legal positivist. (C) That syllogistic logic is false. (D) That human reason can help us to determine what constitutes a worthwhile life..",
+    "gold_answer": "D",
+    "subject": "jurisprudence",
+    "subcategory": "law",
+    "category": "humanities"
+  }
+]
