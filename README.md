@@ -7,7 +7,7 @@ Official implementation for "Graph-of-Agents: A Graph-based Framework for Multi-
 - Authors: [Sukwon Yun](https://sukwonyun.github.io/), [Jie Peng](https://scholar.google.com/citations?user=wD7PQt0AAAAJ&hl=EN), [Pingzhi Li](https://pingzhili.github.io/), [Wendong Fan](https://openreview.net/profile?id=~Wendong_Fan1), [Jie Chen](https://jiechenjiechen.github.io/), [James Zou](https://www.james-zou.com/), [Guohao Li](https://ghli.org/), and [Tianlong Chen](https://tianlong-chen.github.io/)
 
 
-## GoA Overview
+## Graph-of-Agents (GoA) Overview
 A test-time inference framework that dynamically selects, evaluates, and orchestrates multiple specialized language models as a collaborative graph to solve diverse tasks.
 
 <img src="assets/model.png" width="100%">
@@ -24,7 +24,7 @@ pip install -r requirements.txt
 
 ## 2. Serving Models with vLLM
 
-Each model runs as a separate vLLM server on its own GPU. Launch each in a separate terminal (or use `screen`/`tmux`):
+Each model runs as a separate vLLM server on its own GPU. Launch each in a separate terminal (or use `screen`/`tmux`). We recommend serving each model on a different GPU to handle calls efficiently during multiprocessing (we used 6 × A6000 GPUs for experiments with an agent pool of six models):
 
 ```bash
 CUDA_VISIBLE_DEVICES=0 vllm serve Qwen/Qwen2.5-7B-Instruct --port 8000
