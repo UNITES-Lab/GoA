@@ -263,7 +263,7 @@ def process_fn(
         # Build a models_dict that maps unique names to model configs
         models_dict_unique = {uname: models_dict[unique_to_original[uname]] for uname in unique_names}
 
-        # 2. Edge Sampling
+        # 2. Edge Sampling 
         logger.info("Edge Generation")
 
         output = edge_sampling(
@@ -279,7 +279,23 @@ def process_fn(
         )
 
         if not isinstance(output, tuple):
-            final_response = output  # only top-1 case
+            if output == -1:
+                # All models below threshold — fallback to mean pooling of initial responses
+                logger.warning("[Edge Sampling] All models pruned by threshold. Falling back to mean pooling of initial responses.")
+                final_response, i_t_c, o_t_c = graph_pooling(
+                    model=meta_llm_model_name_graph,
+                    endpoint=meta_llm_model_endpoint_graph,
+                    refined_response=initial_responses,
+                    messages=[instruction],
+                    temperature=temperature,
+                    max_tokens=max_tokens,
+                    final_prompt=final_prompt,
+                    seed=seed,
+                )
+                input_token_total += i_t_c
+                output_token_total += o_t_c
+            else:
+                final_response = output  # only top-1 case
 
         else:
             source_edges, target_edges, score_dict, score_matrix_raw, fallback_used, fallback_edge_sampling, i_t_c, o_t_c = output
@@ -364,23 +380,24 @@ def process_fn(
             except Exception as e:
                 logger.error(f"Error in message passing / graph pooling: {e}")
 
+    if final_response is None:
+        final_response = ""
+
     if data in ['MATH', 'AIME24']:
         answer = remove_boxed(last_boxed_only_string(final_response))
         if answer is None or str(answer).strip() in ("", "N/A"):
             answer = "0"
+            logger.warning("[Final Parse] Unparseable MATH answer; defaulting to 0.")
 
     elif data in ['human_eval']:
         completion = extract_human_eval_completion(final_response)
 
         result = {
             "task_id": task_id,
-            "completion": completion,
-            "sampled_nodes": sampled_nodes,
             "meta_llm": meta_llm,
-            "input_token_count": input_token_total,
-            "output_token_count": output_token_total,
-            "token_total": input_token_total + output_token_total,
-            "time": time() - start_time,
+            "sampled_nodes": sampled_nodes,
+            "final_response": final_response,
+            "completion": completion,
         }
 
         return result
@@ -397,13 +414,10 @@ def process_fn(
     result = {
         "idx": item["idx"],
         "instruction": instruction,
-        "sampled_nodes": sampled_nodes,
-        "answer": answer,
         "meta_llm": meta_llm,
-        "input_token_count": input_token_total,
-        "output_token_count": output_token_total,
-        "token_total": input_token_total + output_token_total,
-        "time": total_time
+        "sampled_nodes": sampled_nodes,
+        "final_response": final_response,
+        "answer": answer if answer is not None else "N/A",
     }
 
     return result
@@ -532,8 +546,6 @@ def main(
 
         eval_set = eval_set.add_column("idx", list(range(len(eval_set))))
         eval_set = eval_set.add_column(f"instruction", instructions)
-
-        # eval_set = eval_set.select(np.arange(10))
 
     if len(reference_models):
         logger.info(

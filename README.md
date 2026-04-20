@@ -49,11 +49,11 @@ The model endpoints are configured in `endpoint.py`. Update the URLs and ports t
 
 ```bash
 python main.py \
-    --data GPQA \
+    --data MMLU_sampled \
     --eval dev \
     --reference_models qwen,qwen_coder,mathstral,biomedical_llama,finance_llama,saul \
     --meta_llm qwen \
-    --graph_pooling_method max \
+    --graph_pooling_method mean \
     --top_k 3 \
     --seed 0
 ```
@@ -62,11 +62,11 @@ python main.py \
 
 ```bash
 python main.py \
-    --data GPQA \
+    --data MMLU_sampled \
     --eval test \
     --reference_models qwen,qwen_coder,mathstral,biomedical_llama,finance_llama,saul \
     --meta_llm qwen \
-    --graph_pooling_method weighted_mean \
+    --graph_pooling_method mean \
     --top_k 3 \
     --seed 0
 ```
@@ -143,7 +143,7 @@ python main.py \
 ## Project Structure
 
 ```
-GoA_final/
+GoA/
 ├── main.py                  # Clean evaluation script
 ├── modules.py               # Core GoA pipeline (prompts + graph operations)
 ├── utils.py                 # Utilities (LLM calls, parsing, evaluation)

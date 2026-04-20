@@ -2,11 +2,11 @@
 
 # Dev run (small sample)
 python main.py \
-    --data GPQA \
+    --data MMLU_sampled \
     --eval dev \
     --reference_models qwen,qwen_coder,mathstral,biomedical_llama,finance_llama,saul \
     --meta_llm qwen \
-    --graph_pooling_method mmean \
+    --graph_pooling_method mean \
     --top_k 3 \
     --threshold 0.05 \
     --rounds 1 \
@@ -17,7 +17,7 @@ python main.py \
 
 # Test run (full evaluation)
 # python main.py \
-#     --data GPQA \
+#     --data MMLU_sampled \
 #     --eval test \
 #     --reference_models qwen,qwen_coder,mathstral,biomedical_llama,finance_llama,saul \
 #     --meta_llm qwen \
