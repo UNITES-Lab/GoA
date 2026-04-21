@@ -134,13 +134,11 @@ def process_fn(
 
     start_time = time()
 
-    refernce_model_dict = model_endpoint_dict[meta_llm]
-    meta_llm_model_name = refernce_model_dict['model_id']
-    meta_llm_model_endpoint = refernce_model_dict['url']
-
-    refernce_model_dict = model_endpoint_dict[meta_llm]
-    meta_llm_model_name_graph = refernce_model_dict['model_id']
-    meta_llm_model_endpoint_graph = refernce_model_dict['url']
+    reference_model_dict = model_endpoint_dict[meta_llm]
+    meta_llm_model_name = reference_model_dict['model_id']
+    meta_llm_model_endpoint = reference_model_dict['url']
+    meta_llm_model_name_graph = meta_llm_model_name
+    meta_llm_model_endpoint_graph = meta_llm_model_endpoint
 
     models_dict = {k: v for k, v in model_endpoint_dict.items() if k in reference_models}
 

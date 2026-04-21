@@ -513,7 +513,7 @@ def _run_t_to_s(model_endpoint_dict, model_name_idx, initial_responses, source_e
         total_score = sum(target_scores)
         target_weights = [t / total_score for t in target_scores]
 
-        descriptions = _build_reference_descriptions(targets, target_weights, initial_responses)
+        descriptions = _build_reference_descriptions(targets, target_weights, final_response_dict)
 
         # --- SIMPLIFIED PROMPT: single user message ---
         prompt_content = (
