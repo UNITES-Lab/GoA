@@ -133,7 +133,9 @@ def parse_confidence_response(response_text, data=None, num_choice=4):
 
     # Strategy 1: Direct JSON parse
     try:
-        json_obj = json.loads(response_text.strip())
+        parsed = json.loads(response_text.strip())
+        if isinstance(parsed, dict):
+            json_obj = parsed
     except (json.JSONDecodeError, ValueError):
         pass
 
@@ -173,7 +175,7 @@ def parse_confidence_response(response_text, data=None, num_choice=4):
                             pass
                         break
 
-    if json_obj is not None:
+    if isinstance(json_obj, dict):
         # Extract answer
         raw_answer = json_obj.get("answer", None)
         if raw_answer is not None:
